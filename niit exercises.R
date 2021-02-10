@@ -74,3 +74,18 @@ str(y)
 str(z)
 
 #Exercise 2
+#All done
+
+#Chapter 4
+#Exercise 1
+gred <- c(1,2,3,4,5,6,7,8,9)
+ifelse(gred %% 2 == 0, " the number is even", "the number is odd")
+
+#Exercise 2
+no5 <- 1:100
+for (i in no5) {
+  if(i %% 5 == 0){
+    print(i)
+  }
+  i = i+1
+}
