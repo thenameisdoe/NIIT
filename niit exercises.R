@@ -87,5 +87,22 @@ for (i in no5) {
   if(i %% 5 == 0){
     print(i)
   }
-  i = i+1
+  i <- i+1
+}
+
+#Exercise 3
+num <- 11
+while (num <= 20) {
+  print(num * num)
+  num <- num + 1
+}
+
+#Exercise 4
+s <- 1
+repeat{
+  print(s)
+  s = s + 1
+  if(s > 10){
+    break
+  }
 }
