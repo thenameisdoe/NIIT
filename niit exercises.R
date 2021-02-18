@@ -106,3 +106,56 @@ repeat{
     break
   }
 }
+
+#Exercise 5
+i <- 1
+for(i in 1:7){
+  print(i)
+}
+
+
+#Exercise 6
+
+
+
+#Exercise 7
+d <- 301:309
+sort(d, decreasing = T)
+
+#Exercise 8
+numb <- 200
+for (i in 1:numb) {
+  if (200 %% i == 0) {
+    print(paste(i, " is a divisor of ", numb))
+  }
+  else{
+    print(paste(i, " is not a divisor"))
+  }
+}
+
+#Chapter 5
+#Exercise 1
+c(T, T) & c(T, F)
+c(T, T) | c(T, F)
+c(T, T) && c(F, T)
+c(T, T) || c(F, T)
+!c(T, F)
+c(1, 2) %in% c(1, 3, 4, 5)
+
+#Exercise 2
+sqrt(2)
+sqrt(-2)
+log(0)
+log(1)
+ceiling(10.6)
+floor(9.5)
+round(pi, 3)
+signif(pi, 3)
+is.finite(1/0)
+
+#Exercise 3
+max(c(1,2,3),
+    c(2,1,2),
+    c(1,3,4))
+min(c(1,2,3),
+    c())
